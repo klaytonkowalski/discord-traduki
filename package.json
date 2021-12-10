@@ -1,0 +1,21 @@
+{
+  "name": "discord-traduki",
+  "version": "1.0.0",
+  "description": "Traduki is a Discord bot that translates between the English and Esperanto languages.\"",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klaytonkowalski/discord-traduki.git"
+  },
+  "author": "Kage Kowalski, Klayton Kowalski",
+  "bugs": {
+    "url": "https://github.com/klaytonkowalski/discord-traduki/issues"
+  },
+  "homepage": "https://github.com/klaytonkowalski/discord-traduki#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.7.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.2.0"
+  }
+}
