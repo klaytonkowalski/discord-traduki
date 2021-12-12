@@ -13,7 +13,10 @@ const config = require("./config.json");
 
 const commands =
 [
-	new SlashCommandBuilder().setName("ping").setDescription("This is a test command.")
+	new SlashCommandBuilder().setName("esp").setDescription("English -> Esperanto")
+		.addStringOption(option => option.setName("string").setDescription("The string to translate.").setRequired(true)),
+		new SlashCommandBuilder().setName("eng").setDescription("Esperanto -> English")
+		.addStringOption(option => option.setName("string").setDescription("The string to translate.").setRequired(true))
 ];
 
 const rest = new REST().setToken(config.token);
