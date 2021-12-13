@@ -14,9 +14,11 @@ const config = require("./config.json");
 const commands =
 [
 	new SlashCommandBuilder().setName("esp").setDescription("English -> Esperanto")
-		.addStringOption(option => option.setName("string").setDescription("The string to translate.").setRequired(true)),
-		new SlashCommandBuilder().setName("eng").setDescription("Esperanto -> English")
 		.addStringOption(option => option.setName("string").setDescription("The string to translate.").setRequired(true))
+		.addBooleanOption(option => option.setName("private").setDescription("Respond with a private message.")),
+	new SlashCommandBuilder().setName("eng").setDescription("Esperanto -> English")
+		.addStringOption(option => option.setName("string").setDescription("The string to translate.").setRequired(true))
+		.addBooleanOption(option => option.setName("private").setDescription("Respond with a private message."))
 ];
 
 const rest = new REST().setToken(config.token);

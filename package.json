@@ -7,11 +7,17 @@
     "type": "git",
     "url": "git+https://github.com/klaytonkowalski/discord-traduki.git"
   },
-  "author": "Kage Kowalski, Klayton Kowalski",
+  "author": "Klayton Kowalski",
   "bugs": {
     "url": "https://github.com/klaytonkowalski/discord-traduki/issues"
   },
   "homepage": "https://github.com/klaytonkowalski/discord-traduki#readme",
+  "keywords": [
+    "translate",
+    "esperanto",
+    "english"
+  ],
+  "license": "MIT",
   "dependencies": {
     "@discordjs/builders": "^0.7.0",
     "@discordjs/rest": "^0.1.0-canary.0",
