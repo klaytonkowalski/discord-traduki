@@ -4,8 +4,6 @@ Traduki is a Discord bot that translates between the English and Esperanto langu
 
 Please click the "Star" button on GitHub if you find this asset to be useful!
 
-**Note:** Traduki is currently not hosted anywhere. It will only work after I upload it to a cloud service, which will happen soon.
-
 ## Install
 
 To add Traduki to your Discord server, click the following invite link:  
@@ -21,6 +19,8 @@ Translates from English to Esperanto.
 
 1. *string* - The string to translate.
 2. *private* - Respond privately instead of publicly. (Optional)
+
+---
 
 ### **/eng** *string* \[*private*\]
 
